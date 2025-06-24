@@ -1,0 +1,11 @@
+public class NumberToWords {
+    public static void main(String[] args) {
+        int num = 5;
+        String[] words = {"Zero", "One", "Two", "Three", "Four", 
+                          "Five", "Six", "Seven", "Eight", "Nine"};
+        if (num >= 0 && num < 10)
+            System.out.println(words[num]);
+        else
+            System.out.println("Out of range");
+    }
+}
