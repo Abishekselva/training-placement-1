@@ -1,0 +1,8 @@
+public class UppercaseLetters {
+    public static void main(String[] args) {
+        String str = "Hello Java WORLD!";
+        for (char c : str.toCharArray())
+            if (Character.isUpperCase(c))
+                System.out.print(c + " ");
+    }
+}
