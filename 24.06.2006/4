@@ -1,0 +1,10 @@
+public class StringEquality {
+    public static void main(String[] args) {
+        String a = "Hello";
+        String b = "hello";
+        if (a.equalsIgnoreCase(b))
+            System.out.println("Strings are equal (ignoring case)");
+        else
+            System.out.println("Strings are not equal");
+    }
+}
