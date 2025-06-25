@@ -1,0 +1,9 @@
+public class ToUpper {
+    public static void main(String[] args) {
+        char ch = 'g';
+        if (ch >= 'a' && ch <= 'z') {
+            ch = (char)(ch - 32);
+        }
+        System.out.println("Uppercase: " + ch);
+    }
+}
