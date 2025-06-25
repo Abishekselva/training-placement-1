@@ -1,0 +1,9 @@
+public class DuckNumber {
+    public static void main(String[] args) {
+        String num = "1203";
+        if (num.charAt(0) != '0' && num.contains("0"))
+            System.out.println("Duck Number");
+        else
+            System.out.println("Not a Duck Number");
+    }
+}
